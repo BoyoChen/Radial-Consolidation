@@ -13,6 +13,10 @@
 - [x] Portable fonts and pinned direct/transitive dependencies.
 - [x] Explicit boundary between figure reproduction and training reproduction.
 - [x] Original approved manuscript remains unmodified.
+- [x] Integrated into the author's repository using `code/`, `result/`, `paper/`
+  and `tests/`; both root and code-directory commands verified on 2026-10-07.
+- [x] Clean-clone artifact checks pass before and after the offline rebuild;
+  canonical text output bytes survive Git line-ending conversion.
 
 ## Before publishing
 

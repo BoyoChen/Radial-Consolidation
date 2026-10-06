@@ -124,6 +124,13 @@ The included GitHub Actions workflow targets Windows/Linux and Python 3.10/3.11.
 Remote CI must still run after publication; local testing is not evidence that
 the remote matrix has passed.
 
+Local verification on 2026-10-07 used a fresh Windows/Python 3.10 environment:
+nine unit tests, all artifact checks, both entry points, and an independent Git
+clone rebuilt from an external working directory with Python network connections
+blocked. The complete build took approximately 9-10 seconds on that machine,
+excluding dependency installation. Committed result checksums also passed on
+the clone before rebuilding. Runtime varies with hardware.
+
 ## Data and measurement contracts
 
 See [DATA.md](DATA.md) for the schemas and full interpretation limits. The
