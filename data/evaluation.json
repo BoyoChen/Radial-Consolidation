@@ -1,0 +1,911 @@
+{
+  "epoch": 20,
+  "rows": [
+    {
+      "batch": "MNIST main",
+      "condition": "Unrestricted",
+      "seed": 34160,
+      "gpu": "NVIDIA GeForce GTX 1080 Ti",
+      "metrics": {
+        "valid": 0.9483333230018616,
+        "test": 0.9538000226020813,
+        "correct": 0.2939999997615814,
+        "wrong": 0.07642500102519989,
+        "gap": 0.21757501363754272,
+        "no_decision": 0.0
+      }
+    },
+    {
+      "batch": "MNIST main",
+      "condition": "Unrestricted",
+      "seed": 34161,
+      "gpu": "NVIDIA GeForce RTX 2080 Ti",
+      "metrics": {
+        "valid": 0.9546666741371155,
+        "test": 0.9562000036239624,
+        "correct": 0.29567500948905945,
+        "wrong": 0.06876666843891144,
+        "gap": 0.226908341050148,
+        "no_decision": 0.0
+      }
+    },
+    {
+      "batch": "MNIST main",
+      "condition": "Unrestricted",
+      "seed": 34162,
+      "gpu": "NVIDIA GeForce RTX 2080 Ti",
+      "metrics": {
+        "valid": 0.9506666660308838,
+        "test": 0.9546999931335449,
+        "correct": 0.29985833168029785,
+        "wrong": 0.07811667025089264,
+        "gap": 0.2217416763305664,
+        "no_decision": 0.0
+      }
+    },
+    {
+      "batch": "MNIST main",
+      "condition": "Unrestricted",
+      "seed": 34163,
+      "gpu": "NVIDIA GeForce GTX 1080 Ti",
+      "metrics": {
+        "valid": 0.950166642665863,
+        "test": 0.9542999863624573,
+        "correct": 0.2956041693687439,
+        "wrong": 0.07272083312273026,
+        "gap": 0.22288334369659424,
+        "no_decision": 0.0
+      }
+    },
+    {
+      "batch": "MNIST main",
+      "condition": "Unrestricted",
+      "seed": 34164,
+      "gpu": "NVIDIA GeForce RTX 2080 SUPER",
+      "metrics": {
+        "valid": 0.949999988079071,
+        "test": 0.9552000164985657,
+        "correct": 0.29924166202545166,
+        "wrong": 0.07901250571012497,
+        "gap": 0.22022917866706848,
+        "no_decision": 0.0
+      }
+    },
+    {
+      "batch": "MNIST main",
+      "condition": "Hard Freeze",
+      "seed": 34160,
+      "gpu": "NVIDIA GeForce RTX 2080 Ti",
+      "metrics": {
+        "valid": 0.9764999747276306,
+        "test": 0.9801999926567078,
+        "correct": 0.3411458432674408,
+        "wrong": 0.04261250048875809,
+        "gap": 0.2985333204269409,
+        "no_decision": 0.0
+      }
+    },
+    {
+      "batch": "MNIST main",
+      "condition": "Hard Freeze",
+      "seed": 34161,
+      "gpu": "NVIDIA GeForce GTX 1080 Ti",
+      "metrics": {
+        "valid": 0.9771666526794434,
+        "test": 0.9804999828338623,
+        "correct": 0.3410875201225281,
+        "wrong": 0.040270835161209106,
+        "gap": 0.30081668496131897,
+        "no_decision": 0.0
+      }
+    },
+    {
+      "batch": "MNIST main",
+      "condition": "Hard Freeze",
+      "seed": 34162,
+      "gpu": "NVIDIA GeForce RTX 2080 SUPER",
+      "metrics": {
+        "valid": 0.9761666655540466,
+        "test": 0.9794999957084656,
+        "correct": 0.3420500159263611,
+        "wrong": 0.04089583456516266,
+        "gap": 0.30115416646003723,
+        "no_decision": 0.0
+      }
+    },
+    {
+      "batch": "MNIST main",
+      "condition": "Hard Freeze",
+      "seed": 34163,
+      "gpu": "NVIDIA GeForce RTX 2080 SUPER",
+      "metrics": {
+        "valid": 0.9769999980926514,
+        "test": 0.9812999963760376,
+        "correct": 0.3440166711807251,
+        "wrong": 0.03957083448767662,
+        "gap": 0.3044458329677582,
+        "no_decision": 0.0
+      }
+    },
+    {
+      "batch": "MNIST main",
+      "condition": "Hard Freeze",
+      "seed": 34164,
+      "gpu": "NVIDIA GeForce GTX 1080 Ti",
+      "metrics": {
+        "valid": 0.9804999828338623,
+        "test": 0.9789000153541565,
+        "correct": 0.3421458303928375,
+        "wrong": 0.04037083312869072,
+        "gap": 0.3017750084400177,
+        "no_decision": 0.0
+      }
+    },
+    {
+      "batch": "MNIST main",
+      "condition": "Radial-only",
+      "seed": 34160,
+      "gpu": "NVIDIA GeForce GTX 1080 Ti",
+      "metrics": {
+        "valid": 0.9779999852180481,
+        "test": 0.9794999957084656,
+        "correct": 0.31375834345817566,
+        "wrong": 0.0406625010073185,
+        "gap": 0.27309584617614746,
+        "no_decision": 0.0
+      }
+    },
+    {
+      "batch": "MNIST main",
+      "condition": "Radial-only",
+      "seed": 34161,
+      "gpu": "NVIDIA GeForce GTX 1080 Ti",
+      "metrics": {
+        "valid": 0.9781666398048401,
+        "test": 0.9807000160217285,
+        "correct": 0.3145500123500824,
+        "wrong": 0.03932499885559082,
+        "gap": 0.2752250134944916,
+        "no_decision": 0.0
+      }
+    },
+    {
+      "batch": "MNIST main",
+      "condition": "Radial-only",
+      "seed": 34162,
+      "gpu": "NVIDIA GeForce RTX 2080 SUPER",
+      "metrics": {
+        "valid": 0.9769999980926514,
+        "test": 0.9793000221252441,
+        "correct": 0.3107541799545288,
+        "wrong": 0.04020416736602783,
+        "gap": 0.270550012588501,
+        "no_decision": 0.0
+      }
+    },
+    {
+      "batch": "MNIST main",
+      "condition": "Radial-only",
+      "seed": 34163,
+      "gpu": "NVIDIA GeForce RTX 2080 Ti",
+      "metrics": {
+        "valid": 0.9764999747276306,
+        "test": 0.979200005531311,
+        "correct": 0.3144708573818207,
+        "wrong": 0.04148333519697189,
+        "gap": 0.2729875147342682,
+        "no_decision": 0.0
+      }
+    },
+    {
+      "batch": "MNIST main",
+      "condition": "Radial-only",
+      "seed": 34164,
+      "gpu": "NVIDIA GeForce RTX 2080 Ti",
+      "metrics": {
+        "valid": 0.9804999828338623,
+        "test": 0.9789999723434448,
+        "correct": 0.314195841550827,
+        "wrong": 0.03749166801571846,
+        "gap": 0.27670416235923767,
+        "no_decision": 0.0
+      }
+    },
+    {
+      "batch": "MNIST replication",
+      "condition": "Radial-only",
+      "seed": 34165,
+      "gpu": "NVIDIA GeForce GTX 1080 Ti",
+      "metrics": {
+        "valid": 0.9785000085830688,
+        "test": 0.9787999987602234,
+        "correct": 0.31534168124198914,
+        "wrong": 0.040691670030355453,
+        "gap": 0.2746500074863434,
+        "no_decision": 0.0
+      }
+    },
+    {
+      "batch": "MNIST replication",
+      "condition": "Radial-only",
+      "seed": 34166,
+      "gpu": "NVIDIA GeForce RTX 2080 Ti",
+      "metrics": {
+        "valid": 0.9803333282470703,
+        "test": 0.9793999791145325,
+        "correct": 0.31318750977516174,
+        "wrong": 0.04085833206772804,
+        "gap": 0.272329181432724,
+        "no_decision": 0.0
+      }
+    },
+    {
+      "batch": "MNIST replication",
+      "condition": "Radial-only",
+      "seed": 34167,
+      "gpu": "NVIDIA GeForce RTX 2080 Ti",
+      "metrics": {
+        "valid": 0.9775000214576721,
+        "test": 0.9775000214576721,
+        "correct": 0.3119708299636841,
+        "wrong": 0.039262499660253525,
+        "gap": 0.27270832657814026,
+        "no_decision": 0.0
+      }
+    },
+    {
+      "batch": "MNIST replication",
+      "condition": "Radial-only",
+      "seed": 34168,
+      "gpu": "NVIDIA GeForce RTX 2080 Ti",
+      "metrics": {
+        "valid": 0.9773333072662354,
+        "test": 0.9797000288963318,
+        "correct": 0.31251251697540283,
+        "wrong": 0.03897500038146973,
+        "gap": 0.2735375165939331,
+        "no_decision": 0.0
+      }
+    },
+    {
+      "batch": "MNIST replication",
+      "condition": "Radial-only",
+      "seed": 34169,
+      "gpu": "NVIDIA GeForce RTX 2080 Ti",
+      "metrics": {
+        "valid": 0.9733333587646484,
+        "test": 0.9761999845504761,
+        "correct": 0.3116958439350128,
+        "wrong": 0.04084166884422302,
+        "gap": 0.2708541750907898,
+        "no_decision": 0.0
+      }
+    },
+    {
+      "batch": "MNIST replication",
+      "condition": "Unrestricted",
+      "seed": 34165,
+      "gpu": "NVIDIA GeForce RTX 2080 Ti",
+      "metrics": {
+        "valid": 0.9483333230018616,
+        "test": 0.9538999795913696,
+        "correct": 0.30209583044052124,
+        "wrong": 0.07997500151395798,
+        "gap": 0.22212083637714386,
+        "no_decision": 0.0
+      }
+    },
+    {
+      "batch": "MNIST replication",
+      "condition": "Unrestricted",
+      "seed": 34166,
+      "gpu": "NVIDIA GeForce RTX 2080 Ti",
+      "metrics": {
+        "valid": 0.953499972820282,
+        "test": 0.9553999900817871,
+        "correct": 0.30162084102630615,
+        "wrong": 0.07719166576862335,
+        "gap": 0.2244291752576828,
+        "no_decision": 0.0
+      }
+    },
+    {
+      "batch": "MNIST replication",
+      "condition": "Unrestricted",
+      "seed": 34167,
+      "gpu": "NVIDIA GeForce RTX 2080 Ti",
+      "metrics": {
+        "valid": 0.9518333077430725,
+        "test": 0.9552000164985657,
+        "correct": 0.3010333478450775,
+        "wrong": 0.07776249945163727,
+        "gap": 0.22327083349227905,
+        "no_decision": 0.0
+      }
+    },
+    {
+      "batch": "MNIST replication",
+      "condition": "Unrestricted",
+      "seed": 34168,
+      "gpu": "NVIDIA GeForce RTX 2080 Ti",
+      "metrics": {
+        "valid": 0.9514999985694885,
+        "test": 0.9580000042915344,
+        "correct": 0.2988208532333374,
+        "wrong": 0.07901249825954437,
+        "gap": 0.21980834007263184,
+        "no_decision": 0.0
+      }
+    },
+    {
+      "batch": "MNIST replication",
+      "condition": "Unrestricted",
+      "seed": 34169,
+      "gpu": "NVIDIA GeForce RTX 2080 Ti",
+      "metrics": {
+        "valid": 0.949833333492279,
+        "test": 0.9570000171661377,
+        "correct": 0.30144166946411133,
+        "wrong": 0.08106250315904617,
+        "gap": 0.22037917375564575,
+        "no_decision": 0.0
+      }
+    },
+    {
+      "batch": "MNIST replication",
+      "condition": "Hard Freeze",
+      "seed": 34165,
+      "gpu": "NVIDIA GeForce RTX 2080 SUPER",
+      "metrics": {
+        "valid": 0.9756666421890259,
+        "test": 0.9801999926567078,
+        "correct": 0.33988749980926514,
+        "wrong": 0.03945416584610939,
+        "gap": 0.30043333768844604,
+        "no_decision": 0.0
+      }
+    },
+    {
+      "batch": "MNIST replication",
+      "condition": "Hard Freeze",
+      "seed": 34166,
+      "gpu": "NVIDIA GeForce RTX 2080 SUPER",
+      "metrics": {
+        "valid": 0.9796666502952576,
+        "test": 0.9805999994277954,
+        "correct": 0.3400374948978424,
+        "wrong": 0.04021666944026947,
+        "gap": 0.29982084035873413,
+        "no_decision": 0.0
+      }
+    },
+    {
+      "batch": "MNIST replication",
+      "condition": "Hard Freeze",
+      "seed": 34167,
+      "gpu": "NVIDIA GeForce GTX 1080 Ti",
+      "metrics": {
+        "valid": 0.9788333177566528,
+        "test": 0.9783999919891357,
+        "correct": 0.34039583802223206,
+        "wrong": 0.04050416871905327,
+        "gap": 0.2998916804790497,
+        "no_decision": 0.0
+      }
+    },
+    {
+      "batch": "MNIST replication",
+      "condition": "Hard Freeze",
+      "seed": 34168,
+      "gpu": "NVIDIA GeForce GTX 1080 Ti",
+      "metrics": {
+        "valid": 0.9754999876022339,
+        "test": 0.9787999987602234,
+        "correct": 0.33994582295417786,
+        "wrong": 0.04205000028014183,
+        "gap": 0.2978958487510681,
+        "no_decision": 0.0
+      }
+    },
+    {
+      "batch": "MNIST replication",
+      "condition": "Hard Freeze",
+      "seed": 34169,
+      "gpu": "NVIDIA GeForce GTX 1080 Ti",
+      "metrics": {
+        "valid": 0.9743333458900452,
+        "test": 0.9793999791145325,
+        "correct": 0.34150832891464233,
+        "wrong": 0.04072083532810211,
+        "gap": 0.3007875084877014,
+        "no_decision": 0.0
+      }
+    },
+    {
+      "batch": "Kernel-homeostasis",
+      "boundary": 10,
+      "homeostasis": "continue",
+      "seed": 34200,
+      "gpu": "NVIDIA GeForce RTX 2080 SUPER",
+      "metrics": {
+        "valid": 0.9610000252723694,
+        "test": 0.9664999842643738,
+        "readout_a1_test": 0.9855999946594238
+      }
+    },
+    {
+      "batch": "Kernel-homeostasis",
+      "boundary": 10,
+      "homeostasis": "continue",
+      "seed": 34201,
+      "gpu": "NVIDIA GeForce GTX 1080 Ti",
+      "metrics": {
+        "valid": 0.9645000100135803,
+        "test": 0.9682000279426575,
+        "readout_a1_test": 0.9861999750137329
+      }
+    },
+    {
+      "batch": "Kernel-homeostasis",
+      "boundary": 10,
+      "homeostasis": "continue",
+      "seed": 34202,
+      "gpu": "NVIDIA GeForce GTX 1080 Ti",
+      "metrics": {
+        "valid": 0.9645000100135803,
+        "test": 0.9646000266075134,
+        "readout_a1_test": 0.9860000014305115
+      }
+    },
+    {
+      "batch": "Kernel-homeostasis",
+      "boundary": 10,
+      "homeostasis": "continue",
+      "seed": 34203,
+      "gpu": "NVIDIA GeForce GTX 1080 Ti",
+      "metrics": {
+        "valid": 0.9598333239555359,
+        "test": 0.9663000106811523,
+        "readout_a1_test": 0.9854999780654907
+      }
+    },
+    {
+      "batch": "Kernel-homeostasis",
+      "boundary": 10,
+      "homeostasis": "freeze",
+      "seed": 34200,
+      "gpu": "NVIDIA GeForce GTX 1080 Ti",
+      "metrics": {
+        "valid": 0.9610000252723694,
+        "test": 0.9672999978065491,
+        "readout_a1_test": 0.9851999878883362
+      }
+    },
+    {
+      "batch": "Kernel-homeostasis",
+      "boundary": 10,
+      "homeostasis": "freeze",
+      "seed": 34201,
+      "gpu": "NVIDIA GeForce GTX 1080 Ti",
+      "metrics": {
+        "valid": 0.9651666879653931,
+        "test": 0.9700000286102295,
+        "readout_a1_test": 0.9857000112533569
+      }
+    },
+    {
+      "batch": "Kernel-homeostasis",
+      "boundary": 10,
+      "homeostasis": "freeze",
+      "seed": 34202,
+      "gpu": "NVIDIA GeForce RTX 2080 SUPER",
+      "metrics": {
+        "valid": 0.9661666750907898,
+        "test": 0.9679999947547913,
+        "readout_a1_test": 0.9846000075340271
+      }
+    },
+    {
+      "batch": "Kernel-homeostasis",
+      "boundary": 10,
+      "homeostasis": "freeze",
+      "seed": 34203,
+      "gpu": "NVIDIA GeForce RTX 2080 SUPER",
+      "metrics": {
+        "valid": 0.9605000019073486,
+        "test": 0.9663000106811523,
+        "readout_a1_test": 0.9850000143051147
+      }
+    },
+    {
+      "batch": "Kernel-homeostasis",
+      "boundary": 2,
+      "homeostasis": "continue",
+      "seed": 34200,
+      "gpu": "NVIDIA GeForce RTX 2080 SUPER",
+      "metrics": {
+        "valid": 0.9783333539962769,
+        "test": 0.9789999723434448,
+        "readout_a1_test": 0.9854999780654907
+      }
+    },
+    {
+      "batch": "Kernel-homeostasis",
+      "boundary": 2,
+      "homeostasis": "continue",
+      "seed": 34201,
+      "gpu": "NVIDIA GeForce GTX 1080 Ti",
+      "metrics": {
+        "valid": 0.9750000238418579,
+        "test": 0.9786999821662903,
+        "readout_a1_test": 0.986299991607666
+      }
+    },
+    {
+      "batch": "Kernel-homeostasis",
+      "boundary": 2,
+      "homeostasis": "continue",
+      "seed": 34202,
+      "gpu": "NVIDIA GeForce RTX 2080 Ti",
+      "metrics": {
+        "valid": 0.9748333096504211,
+        "test": 0.978600025177002,
+        "readout_a1_test": 0.9861000180244446
+      }
+    },
+    {
+      "batch": "Kernel-homeostasis",
+      "boundary": 2,
+      "homeostasis": "continue",
+      "seed": 34203,
+      "gpu": "NVIDIA GeForce GTX 1080 Ti",
+      "metrics": {
+        "valid": 0.9748333096504211,
+        "test": 0.979200005531311,
+        "readout_a1_test": 0.987500011920929
+      }
+    },
+    {
+      "batch": "Kernel-homeostasis",
+      "boundary": 2,
+      "homeostasis": "freeze",
+      "seed": 34200,
+      "gpu": "NVIDIA GeForce GTX 1080 Ti",
+      "metrics": {
+        "valid": 0.9789999723434448,
+        "test": 0.9825000166893005,
+        "readout_a1_test": 0.987500011920929
+      }
+    },
+    {
+      "batch": "Kernel-homeostasis",
+      "boundary": 2,
+      "homeostasis": "freeze",
+      "seed": 34201,
+      "gpu": "NVIDIA GeForce RTX 2080 Ti",
+      "metrics": {
+        "valid": 0.9753333330154419,
+        "test": 0.9790999889373779,
+        "readout_a1_test": 0.9879000186920166
+      }
+    },
+    {
+      "batch": "Kernel-homeostasis",
+      "boundary": 2,
+      "homeostasis": "freeze",
+      "seed": 34202,
+      "gpu": "NVIDIA GeForce RTX 2080 Ti",
+      "metrics": {
+        "valid": 0.9760000109672546,
+        "test": 0.9787999987602234,
+        "readout_a1_test": 0.9868999719619751
+      }
+    },
+    {
+      "batch": "Kernel-homeostasis",
+      "boundary": 2,
+      "homeostasis": "freeze",
+      "seed": 34203,
+      "gpu": "NVIDIA GeForce RTX 2080 Ti",
+      "metrics": {
+        "valid": 0.9776666760444641,
+        "test": 0.9800000190734863,
+        "readout_a1_test": 0.9879000186920166
+      }
+    },
+    {
+      "batch": "N-MNIST",
+      "condition": "Hard Freeze",
+      "seed": 34220,
+      "gpu": "NVIDIA GeForce GTX 1080 Ti",
+      "metrics": {
+        "valid": 0.9725000262260437,
+        "test": 0.9707000255584717,
+        "correct": 0.46865835785865784,
+        "wrong": 0.09399166703224182,
+        "gap": 0.374666690826416,
+        "no_decision": 0.0018333332845941186
+      }
+    },
+    {
+      "batch": "N-MNIST",
+      "condition": "Hard Freeze",
+      "seed": 34221,
+      "gpu": "NVIDIA GeForce GTX 1080 Ti",
+      "metrics": {
+        "valid": 0.9698333144187927,
+        "test": 0.972599983215332,
+        "correct": 0.46836668252944946,
+        "wrong": 0.0908583328127861,
+        "gap": 0.37750834226608276,
+        "no_decision": 0.0006666666595265269
+      }
+    },
+    {
+      "batch": "N-MNIST",
+      "condition": "Hard Freeze",
+      "seed": 34222,
+      "gpu": "NVIDIA GeForce GTX 1080 Ti",
+      "metrics": {
+        "valid": 0.9679999947547913,
+        "test": 0.9714999794960022,
+        "correct": 0.46820834279060364,
+        "wrong": 0.09597500413656235,
+        "gap": 0.3722333610057831,
+        "no_decision": 0.0011666666250675917
+      }
+    },
+    {
+      "batch": "N-MNIST",
+      "condition": "Hard Freeze",
+      "seed": 34223,
+      "gpu": "NVIDIA GeForce RTX 2080 Ti",
+      "metrics": {
+        "valid": 0.9691666960716248,
+        "test": 0.9728000164031982,
+        "correct": 0.4638916850090027,
+        "wrong": 0.09169166535139084,
+        "gap": 0.37220001220703125,
+        "no_decision": 0.0016666667070239782
+      }
+    },
+    {
+      "batch": "N-MNIST",
+      "condition": "Hard Freeze",
+      "seed": 34224,
+      "gpu": "NVIDIA GeForce RTX 2080 SUPER",
+      "metrics": {
+        "valid": 0.9710000157356262,
+        "test": 0.9704999923706055,
+        "correct": 0.46475833654403687,
+        "wrong": 0.08942500501871109,
+        "gap": 0.37533333897590637,
+        "no_decision": 0.0011666666250675917
+      }
+    },
+    {
+      "batch": "N-MNIST",
+      "condition": "Hard Freeze",
+      "seed": 34225,
+      "gpu": "NVIDIA GeForce RTX 2080 SUPER",
+      "metrics": {
+        "valid": 0.9725000262260437,
+        "test": 0.9717000126838684,
+        "correct": 0.467849999666214,
+        "wrong": 0.0937916710972786,
+        "gap": 0.374058336019516,
+        "no_decision": 0.0010000000474974513
+      }
+    },
+    {
+      "batch": "N-MNIST",
+      "condition": "Hard Freeze",
+      "seed": 34226,
+      "gpu": "NVIDIA GeForce GTX 1080 Ti",
+      "metrics": {
+        "valid": 0.968666672706604,
+        "test": 0.9722999930381775,
+        "correct": 0.46833333373069763,
+        "wrong": 0.09190833568572998,
+        "gap": 0.37642499804496765,
+        "no_decision": 0.0016666667070239782
+      }
+    },
+    {
+      "batch": "N-MNIST",
+      "condition": "Unrestricted",
+      "seed": 34220,
+      "gpu": "NVIDIA GeForce GTX 1080 Ti",
+      "metrics": {
+        "valid": 0.0,
+        "test": 0.0,
+        "correct": 0.0,
+        "wrong": 0.0,
+        "gap": 0.0,
+        "no_decision": 1.0
+      }
+    },
+    {
+      "batch": "N-MNIST",
+      "condition": "Unrestricted",
+      "seed": 34221,
+      "gpu": "NVIDIA GeForce RTX 2080 SUPER",
+      "metrics": {
+        "valid": 0.0,
+        "test": 0.0,
+        "correct": 0.0,
+        "wrong": 0.0,
+        "gap": 0.0,
+        "no_decision": 1.0
+      }
+    },
+    {
+      "batch": "N-MNIST",
+      "condition": "Unrestricted",
+      "seed": 34222,
+      "gpu": "NVIDIA GeForce GTX 1080 Ti",
+      "metrics": {
+        "valid": 0.0,
+        "test": 0.0,
+        "correct": 0.0,
+        "wrong": 0.0,
+        "gap": 0.0,
+        "no_decision": 1.0
+      }
+    },
+    {
+      "batch": "N-MNIST",
+      "condition": "Unrestricted",
+      "seed": 34223,
+      "gpu": "NVIDIA GeForce GTX 1080 Ti",
+      "metrics": {
+        "valid": 0.0,
+        "test": 0.0,
+        "correct": 0.0,
+        "wrong": 0.0,
+        "gap": 0.0,
+        "no_decision": 1.0
+      }
+    },
+    {
+      "batch": "N-MNIST",
+      "condition": "Unrestricted",
+      "seed": 34224,
+      "gpu": "NVIDIA GeForce RTX 2080 Ti",
+      "metrics": {
+        "valid": 0.0,
+        "test": 0.0,
+        "correct": 0.0,
+        "wrong": 0.0,
+        "gap": 0.0,
+        "no_decision": 1.0
+      }
+    },
+    {
+      "batch": "N-MNIST",
+      "condition": "Unrestricted",
+      "seed": 34225,
+      "gpu": "NVIDIA GeForce RTX 2080 Ti",
+      "metrics": {
+        "valid": 0.0,
+        "test": 0.0,
+        "correct": 0.0,
+        "wrong": 0.0,
+        "gap": 0.0,
+        "no_decision": 1.0
+      }
+    },
+    {
+      "batch": "N-MNIST",
+      "condition": "Unrestricted",
+      "seed": 34226,
+      "gpu": "NVIDIA GeForce RTX 2080 Ti",
+      "metrics": {
+        "valid": 0.0,
+        "test": 0.0,
+        "correct": 0.0,
+        "wrong": 0.0,
+        "gap": 0.0,
+        "no_decision": 1.0
+      }
+    },
+    {
+      "batch": "N-MNIST",
+      "condition": "Radial-only",
+      "seed": 34220,
+      "gpu": "NVIDIA GeForce RTX 2080 SUPER",
+      "metrics": {
+        "valid": 0.9721666574478149,
+        "test": 0.972100019454956,
+        "correct": 0.4759000241756439,
+        "wrong": 0.09227500110864639,
+        "gap": 0.38362500071525574,
+        "no_decision": 0.001500000013038516
+      }
+    },
+    {
+      "batch": "N-MNIST",
+      "condition": "Radial-only",
+      "seed": 34221,
+      "gpu": "NVIDIA GeForce GTX 1080 Ti",
+      "metrics": {
+        "valid": 0.9695000052452087,
+        "test": 0.9736999869346619,
+        "correct": 0.47960835695266724,
+        "wrong": 0.08989166468381882,
+        "gap": 0.3897166848182678,
+        "no_decision": 0.0006666666595265269
+      }
+    },
+    {
+      "batch": "N-MNIST",
+      "condition": "Radial-only",
+      "seed": 34222,
+      "gpu": "NVIDIA GeForce RTX 2080 Ti",
+      "metrics": {
+        "valid": 0.9701666831970215,
+        "test": 0.9710000157356262,
+        "correct": 0.47574999928474426,
+        "wrong": 0.09571667015552521,
+        "gap": 0.38003334403038025,
+        "no_decision": 0.0008333333535119891
+      }
+    },
+    {
+      "batch": "N-MNIST",
+      "condition": "Radial-only",
+      "seed": 34223,
+      "gpu": "NVIDIA GeForce RTX 2080 Ti",
+      "metrics": {
+        "valid": 0.9710000157356262,
+        "test": 0.9731000065803528,
+        "correct": 0.4772583544254303,
+        "wrong": 0.0953916683793068,
+        "gap": 0.3818666636943817,
+        "no_decision": 0.001500000013038516
+      }
+    },
+    {
+      "batch": "N-MNIST",
+      "condition": "Radial-only",
+      "seed": 34224,
+      "gpu": "NVIDIA GeForce RTX 2080 Ti",
+      "metrics": {
+        "valid": 0.9706666469573975,
+        "test": 0.9722999930381775,
+        "correct": 0.47845834493637085,
+        "wrong": 0.09070833772420883,
+        "gap": 0.3877499997615814,
+        "no_decision": 0.0010000000474974513
+      }
+    },
+    {
+      "batch": "N-MNIST",
+      "condition": "Radial-only",
+      "seed": 34225,
+      "gpu": "NVIDIA GeForce GTX 1080 Ti",
+      "metrics": {
+        "valid": 0.9738333225250244,
+        "test": 0.9739000201225281,
+        "correct": 0.4786166846752167,
+        "wrong": 0.0953083336353302,
+        "gap": 0.3833083510398865,
+        "no_decision": 0.0006666666595265269
+      }
+    },
+    {
+      "batch": "N-MNIST",
+      "condition": "Radial-only",
+      "seed": 34226,
+      "gpu": "NVIDIA GeForce RTX 2080 SUPER",
+      "metrics": {
+        "valid": 0.9638333320617676,
+        "test": 0.973800003528595,
+        "correct": 0.47987502813339233,
+        "wrong": 0.09647500514984131,
+        "gap": 0.383400022983551,
+        "no_decision": 0.001500000013038516
+      }
+    }
+  ]
+}

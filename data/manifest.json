@@ -1,0 +1,26 @@
+{
+  "data/captions.json": {
+    "sha256": "04010a5f7688ac4225ef9f49a88e14780aebce17af5e135f83abcc0e13fb2229",
+    "bytes": 4382
+  },
+  "data/evaluation.json": {
+    "sha256": "a1f066005e4b65c4d222321a16d22ffeee4344110bf4ba84302ffeabc54b8e50",
+    "bytes": 24219
+  },
+  "data/geometry_reference.json": {
+    "sha256": "afc9fb5ed0d0b99288058736569582fe0a6792b2c80343cac8bb5ec8c9ee44f0",
+    "bytes": 31034
+  },
+  "data/kernels.npz": {
+    "sha256": "82a871d0eae1fad5ef3d605de41dcfaf3bf13966bdf62e217b88f9e9b5871551",
+    "bytes": 52216162
+  },
+  "data/paired_reference.json": {
+    "sha256": "b24044022a881984bb53ab6bacb129a643bd6a5dd1113e1f4f3adafe8bff4d7c",
+    "bytes": 1614
+  },
+  "data/trajectory_reference.json": {
+    "sha256": "c107fd4be38315d12e814e2ace814573badc8fc5b7056adbaf9fccf71220a217",
+    "bytes": 71982
+  }
+}

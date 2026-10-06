@@ -1,0 +1,29 @@
+% Optional original LaTeX fragments; generated tables are in result/*.tex.
+\begin{figure}[H]
+
+\centering
+\begin{tikzpicture}[>=Stealth,font=\small]
+\draw[->,gray] (0,0)--(3.0,0) node[right] {$q_j$};
+\draw[->,gray] (0,0)--(0,2.0) node[above] {orthogonal};
+\draw[->,very thick,driftred] (0,0)--(2.25,1.55) node[above right] {$u_j$};
+\draw[dashed,gray] (2.25,1.55)--(2.25,0);
+\draw[->,thick,radialblue] (0,0)--(2.25,0.55) node[right] {$\widetilde u_j(\alpha)$};
+\draw[->,very thick,black] (0,0)--(2.25,0) node[below] {$u_j^{\parallel}$: radial-only};
+\end{tikzpicture}
+\caption{Reference-direction consolidation. The local update $u_j$ is constrained toward the fixed reference $q_j$; $\alpha=0$ retains only its parallel component. This conceptual sketch is not an empirical kernel projection.}
+\label{fig:method}
+\end{figure}
+\begin{algorithm}[H]
+
+\caption{Reference-constrained hidden update}
+\label{alg:reference-update}
+\small
+\begin{tabular}{@{}l@{}}
+\textbf{At formation boundary:}\\
+\quad $q\gets\operatorname{normalize}(w)$\quad\textcolor{gray}{// Store once}\\[5pt]
+\textbf{For each subsequent update:}\\
+\quad $u\gets\operatorname{LocalSTDP}(\text{spike traces})$\\
+\quad $u\gets\alpha u+(1-\alpha)q(q^{\top}u)$\\
+\quad $w\gets\operatorname{Regulate}(w+u)$
+\end{tabular}
+\end{algorithm}

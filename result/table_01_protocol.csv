@@ -1,0 +1,15 @@
+Setting,MNIST,N-MNIST
+Input channels / time steps,6 / 40,2 / 20
+Hidden channels,300,330
+Hidden kernel / stride,10 x 10 / 2,9 x 9 / 2
+Output neurons per class,20,45
+Trace decay gamma,0.66,0.97
+Lateral inhibition factor,3,30
+Temporal margin,0.30,0.35
+Positive / negative teaching gains,40 / 120,32 / 100
+Group softmax temperature,0.25,0.25
+Threshold bounds,"[0.1, 10]","[1, 100]"
+Threshold log-step,0.00125,0.00125
+Hidden amplifier log-step,6.25e-6,0
+Output amplifier log-step,1.25e-6,0
+Per-receiver normalization,L1,L1

@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use these reproduction materials, please cite this repository."
+title: "Radial Consolidation: figure and analysis reproduction"
+abstract: >-
+  Analysis code and bundled research data that reconstruct the figures and
+  tables of the pre-submission manuscript "Radial Consolidation: Constraining
+  Post-Formation Kernel Drift in Spiking Neural Networks". This package does
+  not retrain the original networks. No publication DOI is assigned.
+type: software
+authors:
+  - family-names: Chen
+    given-names: Boyo
+    orcid: "https://orcid.org/0009-0004-5185-2956"
+    affiliation: "The University of Tokyo"
+  - family-names: Yokoya
+    given-names: Naoto
+    orcid: "https://orcid.org/0000-0002-7321-4590"
+    affiliation: "The University of Tokyo; RIKEN Center for Advanced Intelligence Project"
+repository-code: "https://github.com/BoyoChen/Radial-Consolidation"
+license: MIT
